@@ -199,14 +199,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180765602}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: 0.76604444, z: 0, w: 0.64278764}
+  m_LocalPosition: {x: -17.21, y: 4.58, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 100, z: 0}
 --- !u!1001 &1876528368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -377,16 +377,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2089343996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ca6c303781ed1645adc26b943cc96e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e3433c691cc04659a6325c7e1ab4906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   curveRadius: 4
-  pipeRadius: 2
-  curveSegmentCount: 20
-  pipeSegmentCount: 10
-  mesh: {fileID: 0}
-  vertices: []
-  triangles: 
+  pipeRadius: 1
+  curveSegmentCount: 10
+  pipeSegmentCount: 20
+  ringDistance: 0
 --- !u!114 &2089344001
 MonoBehaviour:
   m_ObjectHideFlags: 0

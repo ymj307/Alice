@@ -1,0 +1,2 @@
+E:\GitHub\Alice\AliceProject\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+E:\GitHub\Alice\AliceProject\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
