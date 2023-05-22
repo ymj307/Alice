@@ -7,9 +7,10 @@ using UnityEngine.UIElements;
 
 public class SkyBoxScript : MonoBehaviour
 {
-
+    public Material skyInitial;
     public Material skyEntrance;
     public Material skyExit;
+
 
 
     // Start is called before the first frame update
@@ -30,6 +31,9 @@ public class SkyBoxScript : MonoBehaviour
 
         switch (scene.name)
         {
+            case "Initial":
+                RenderSettings.skybox = skyInitial;
+                break;
             case "Entrance":
                 RenderSettings.skybox = skyEntrance;
                 break;
