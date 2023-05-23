@@ -453,6 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43a507c047717d4394ccd733d856c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skyInitial: {fileID: 0}
   skyEntrance: {fileID: 2100000, guid: 8382abc3a94345740ad657962381421d, type: 2}
   skyExit: {fileID: 2100000, guid: bbe5e356a359cf44388ab49e187bb4ce, type: 2}
 --- !u!4 &599950795
@@ -1340,7 +1341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407856702}
   m_LocalRotation: {x: 0.12969545, y: -0.1184572, z: 0.015607949, w: 0.9843289}
-  m_LocalPosition: {x: 3, y: 8.92, z: -18.23}
+  m_LocalPosition: {x: 3, y: 8.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
