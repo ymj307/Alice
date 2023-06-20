@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayBeforeLoading: 5
-  sceneNameToLoad: Exit
+  sceneNameToLoad: RoomOfSize
 --- !u!1 &157821963
 GameObject:
   m_ObjectHideFlags: 0
