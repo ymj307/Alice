@@ -5,6 +5,7 @@ using UnityEngine;
 public class XRMove : MonoBehaviour
 {
     public GameObject myXRRig;
+    public GameObject newButton;
     public float zMoveAmount = 20f; // 카메라 Z 위치 증가량
     public float totalTime = 5f; // 전체 이동에 걸리는 시간
     public float targetY = 20f; // 최종 도달할 Y 위치
@@ -23,7 +24,9 @@ public class XRMove : MonoBehaviour
         initialPosition = myXRRig.transform.position;
         targetPosition = new Vector3(initialPosition.x, targetY, initialPosition.z);
         targetPosition2 = new Vector3(initialPosition.x, targetY2, initialPosition.z); // targetY2로 변경
+        newButton.SetActive(false);
     }
+
 
     // Update is called once per frame
     void Update()
@@ -39,6 +42,7 @@ public class XRMove : MonoBehaviour
     public void GoToLocation2()
     {
         StartCoroutine(MoveToTargetPosition());
+        newButton.SetActive(true);
     }
 
     private IEnumerator MoveToTargetPosition()
