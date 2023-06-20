@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Entrance.unity
     guid: 4df2d2394306cf84fa7210e4fe7484ab
   - enabled: 1
+    path: Assets/Scenes/RoomOfSize.unity
+    guid: 7a391d03f558b794f9340f8fe3134c97
+  - enabled: 1
+    path: Assets/Scenes/Cups&Balls.unity
+    guid: 2bab35d038c2e154fbb45bb1daee9848
+  - enabled: 1
     path: Assets/Scenes/Exit.unity
     guid: d3cf22daab0beda46bda70ef57e809f6
   m_configObjects:
